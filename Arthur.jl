@@ -76,7 +76,7 @@ end
 # ╔═╡ 1a575e49-1aa5-46a6-9430-b753da019190
 begin
 	
-	word = "авто"  # Замените на любое слово
+	word = "механизмов"  # Замените на любое слово
 	partitions = generate_valid_partitions(word, auxiliary_words)
 	num_partitions = length(partitions)
 	
